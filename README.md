@@ -10,7 +10,7 @@ Now a Kanban board look like this:
 1. Go to `System` settings -> `Announcement banner`
 1. Add this code to `Announcement` field:
 
-        <link rel="stylesheet" type="text/css" href="https://mottor.github.io/jira-theme-fixer/jira.css?2"/>
-        <script type="text/javascript" src="https://mottor.github.io/jira-theme-fixer/jira.js?2"></script>
+        <link rel="stylesheet" type="text/css" href="https://mottor.github.io/jira-theme-fixer/jira.css"/>
+        <script type="text/javascript" src="https://mottor.github.io/jira-theme-fixer/jira.js"></script>
         
 1. Click `Set Banner`
