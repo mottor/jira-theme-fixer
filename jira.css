@@ -51,7 +51,7 @@
 }
 
 /* просмотр задачи */
-.issue-container {
+.issue-view .issue-container {
     max-width: 1000px;
     margin: 20px auto;
     position: relative;
@@ -59,16 +59,16 @@
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
-.issue-view>.issue-container .issue-header, #issue-content {background: transparent;}
-.aui-page-header-image {display: none;}
-.aui-page-header-image+.aui-page-header-main {padding-left:0;}
-.aui-nav.aui-nav-breadcrumbs {font-size: 12px;}
-.aui-nav.aui-nav-breadcrumbs a {color: #aaa;}
-#summary-val {margin:18px 0 0 0; padding: 0;}
-.issue-body-content {padding: 30px;}
-.issue-header .issue-header-content>.command-bar {padding: 20px 30px 0;}
-.issue-header .ops-cont {margin: 0;}
-.issue-header .ops-menus {opacity:0.3}
-.issue-header .ops-menus:hover {opacity:1}
-.aui-toolbar2.ops-menus .aui-button {margin-top:0;}
-.issue-header .issue-header-content>.aui-page-header {padding: 20px 30px 0;}
+.issue-view > .issue-container .issue-header, #issue-content {background: transparent;}
+.issue-view .aui-page-header-image {display: none;}
+.issue-view .aui-page-header-image+.aui-page-header-main {padding-left:0;}
+.issue-view .aui-nav.aui-nav-breadcrumbs {font-size: 12px;}
+.issue-view .aui-nav.aui-nav-breadcrumbs a {color: #aaa;}
+.issue-view #summary-val {margin:18px 0 0 0; padding: 0;}
+.issue-view .issue-body-content {padding: 30px;}
+.issue-view .issue-header .issue-header-content>.command-bar {padding: 20px 30px 0;}
+.issue-view .issue-header .ops-cont {margin: 0;}
+.issue-view .issue-header .ops-menus {opacity:0.3}
+.issue-view .issue-header .ops-menus:hover {opacity:1}
+.issue-view .aui-toolbar2.ops-menus .aui-button {margin-top:0;}
+.issue-view .issue-header .issue-header-content>.aui-page-header {padding: 20px 30px 0;}
