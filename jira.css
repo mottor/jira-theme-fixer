@@ -39,6 +39,7 @@
 .ghx-band-2 .ghx-issue-fields {margin-top:0}
 
 .ghx-scroll-columns:not(.ghx-mode-planning) #ghx-detail-view {width:600px !important;}
+.ghx-band-1 .ghx-extra-fields, .ghx-issue .ghx-extra-fields {margin-top: 6px;}
 
 /* стиль скролла */
 #ghx-pool::-webkit-scrollbar {
