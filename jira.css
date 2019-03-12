@@ -8,7 +8,7 @@
 .ghx-issue .ghx-avatar, .ghx-band-1 .ghx-issue .ghx-avatar {position: absolute;top: auto !important;bottom: 10px !important;right: 10px !important; left: auto !important;}
 .ghx-issue .ghx-avatar-img {width:24px!important; height:24px!important;}
 
-#gh, .aui-page-panel {background-color: #f5f6f7;}
+#gh, .page-issue-navigator .aui-page-panel {background-color: #f5f6f7;}
 #ghx-work {border-top:0}
 #gh {
     background-image: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1707/b8c1ff0287077b14e9709d035a808625/photo-1539712495315-2bd2a5fe5bf6"); 
