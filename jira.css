@@ -16,7 +16,7 @@
 #ghx-column-headers {padding-top: 0 !important;}
 .ghx-column-headers h2 {font-weight: bold !important;}
 .ghx-column-headers .ghx-column {border-bottom: 0; padding: 6px 10px 2px !important;}
-.ghx-column {background: rgba(223, 227, 230, 0.95)!important; padding: 8px!important; }
+.ghx-column {background: rgba(223, 227, 230, 0.5)!important; padding: 8px!important; }
 .ghx-issue {margin-bottom: 10px;     border-radius: 3px; box-shadow: 0 1px 0 rgba(9,45,66,.25); border: 0;}
 .ghx-grabber {width: 2px;}
 .ghx-issue-fields .ghx-summary .ghx-inner {line-height: 1.3; min-height: fit-content;}
