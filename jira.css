@@ -10,7 +10,13 @@
 
 #gh, .aui-page-panel {background-color: #f5f6f7;}
 #ghx-work {border-top:0}
-#gh {background-image: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1707/b8c1ff0287077b14e9709d035a808625/photo-1539712495315-2bd2a5fe5bf6"); background-attachment: fixed; background-size: 100%;}
+#gh {
+    background-image: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1707/b8c1ff0287077b14e9709d035a808625/photo-1539712495315-2bd2a5fe5bf6"); 
+    background-attachment: fixed; 
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+}
 #ghx-pool {background: transparent; padding-top: 0 !important;}
 #ghx-column-header-group.ghx-fixed {background: transparent; position:static!important;}
 #ghx-column-headers {padding-top: 0 !important;}
