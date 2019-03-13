@@ -87,3 +87,7 @@
 .issue-view .issue-header .ops-menus:hover {opacity:1}
 .issue-view .aui-toolbar2.ops-menus .aui-button {margin-top:0;}
 .issue-view .issue-header .issue-header-content>.aui-page-header {padding: 20px 30px 0;}
+
+.issue-view .issue-body-content .module .mod-content {padding-left: 0;}
+.issue-view .issue-body-content .module+.module {margin-top: 40px; padding-top: 0;}
+.issue-view .issue-body-content .module>.mod-header>h4 {font-size: 18px; letter-spacing: 0;}
