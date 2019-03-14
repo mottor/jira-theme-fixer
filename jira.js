@@ -29,7 +29,7 @@ $(window).on('mousedown.trello-scroll', '#ghx-pool', function(e){
 });
 
 
-if ($('body').hasClass('ghx-scroll-columns')) {
+/* if ($('body').hasClass('ghx-scroll-columns')) {
     $(window).on('keydown.close-issue-preview', function(e) {
         if (e.keyCode == 27) {
             var $detailsWnd = $('.ghx-detail-view');
@@ -38,4 +38,4 @@ if ($('body').hasClass('ghx-scroll-columns')) {
             }
         }
     });
-}
+} */
