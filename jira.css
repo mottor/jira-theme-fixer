@@ -28,6 +28,7 @@
 .ghx-grabber {width: 3px; border-top-left-radius: 3px; border-bottom-left-radius: 3px;}
 .ghx-issue-fields .ghx-summary .ghx-inner, .ghx-band-1 .ghx-issue-fields .ghx-summary .ghx-inner {line-height: 1.3; min-height: fit-content;}
 .ghx-band-1 .ghx-issue-fields {margin-top:0 !important;}
+.ghx-issue.ghx-selected {box-shadow: 0 0 5px 5px #0af; background: transparent;}
 .ghx-issue:hover, .ghx-issue.ghx-selected:hover {background: #efecfd;}
 .ghx-issue .ghx-type {position:static; margin-right: 8px; opacity:0.3;}
 .ghx-issue .ghx-type:hover {opacity:1;}
