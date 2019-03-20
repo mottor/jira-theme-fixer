@@ -80,6 +80,7 @@
 .issue-view .aui-page-header-image+.aui-page-header-main {padding-left:0;}
 .issue-view .aui-nav.aui-nav-breadcrumbs {font-size: 12px;}
 .issue-view .aui-nav.aui-nav-breadcrumbs a {color: #aaa;}
+.issue-view .aui-nav.aui-nav-breadcrumbs a:focus {outline: none;}
 .issue-view #summary-val {margin:18px 0 0 0; padding: 0; font-size: 30px; display: block;}
 .issue-view .issue-body-content {padding: 30px;}
 .issue-view .issue-header .issue-header-content>.command-bar {padding: 20px 30px 0;}
