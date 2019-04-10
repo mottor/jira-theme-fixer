@@ -94,3 +94,6 @@
 
 .issue-view .issue-header .ops-menus .aui-button {background: none; color: #777;}
 .issue-view .issue-header .ops-menus .aui-button:hover {background: rgba(9,30,66,0.15);}
+
+/*горизонтальный скролл картинок, чтобы текст не скроллился*/
+.issue-view span.image-wrap {overflow: auto; display: block;}
