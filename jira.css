@@ -48,12 +48,12 @@
 .ghx-scroll-columns:not(.ghx-mode-planning) #ghx-detail-view {width:600px !important;}
 .ghx-band-1 .ghx-extra-fields, .ghx-issue .ghx-extra-fields {margin-top: 6px;}
 
-/* selected card */
-    background: #fff;
-    box-shadow: 0px 5px 15px rgba(0,0,0,.4);
-    transform: scale(1.05);
-    z-index: 1;
-}
+/*!* selected card *!*/
+/*    background: #fff;*/
+/*    box-shadow: 0px 5px 15px rgba(0,0,0,.4);*/
+/*    transform: scale(1.05);*/
+/*    z-index: 1;*/
+/*}*/
 
 /* стиль скролла */
 #ghx-pool::-webkit-scrollbar {
@@ -97,3 +97,6 @@
 
 /*горизонтальный скролл картинок, чтобы текст не скроллился*/
 .issue-view span.image-wrap {overflow: auto; display: block;}
+.ghx-classification-column {
+    background-color: rgba(255, 255, 255, 0.80);
+}
