@@ -102,3 +102,4 @@
 }
 
 #js-work-quickfilters {background-color: rgba(255, 255, 255, 0.9); padding: 3px 10px; border-radius: 4px;}
+#js-work-quickfilters .ghx-quickfilter-trigger {top: 3px;}
