@@ -132,7 +132,7 @@ body.page-issue-navigator {
 #js-work-quickfilters, #js-plan-quickfilters {background-color: rgba(255, 255, 255, 0.9); padding: 3px 10px; border-radius: 4px;}
 #js-work-quickfilters .ghx-quickfilter-trigger, #js-plan-quickfilters .ghx-quickfilter-trigger {top: 3px;}
 
-#attachmentmodule .mod-content.issue-drop-zone {margin-left: 10px;}
+#attachmentmodule .mod-content.issue-drop-zone {margin-left: 0;}
 
 @media (prefers-color-scheme: dark) {
     body.page-issue-navigator {
