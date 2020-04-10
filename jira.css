@@ -138,7 +138,7 @@ body.page-issue-navigator {
         color: #eee;
     }
     
-    .issue-view .issue-body-content .module>.mod-header>h4 {
+    body.page-issue-navigator h1, body.page-issue-navigator h2, body.page-issue-navigator h3, body.page-issue-navigator h4 {
         color: #fff;
     }
 }
