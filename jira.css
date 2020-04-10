@@ -132,6 +132,8 @@ body.page-issue-navigator {
 #js-work-quickfilters, #js-plan-quickfilters {background-color: rgba(255, 255, 255, 0.9); padding: 3px 10px; border-radius: 4px;}
 #js-work-quickfilters .ghx-quickfilter-trigger, #js-plan-quickfilters .ghx-quickfilter-trigger {top: 3px;}
 
+#attachmentmodule .mod-content.issue-drop-zone {margin-left: 10px;}
+
 @media (prefers-color-scheme: dark) {
     body.page-issue-navigator {
         background-color: #3c3c3d;
@@ -186,5 +188,9 @@ body.page-issue-navigator {
     
     .wiki-edit-toolbar {
         background: none;
+    }
+    
+    .issue-data-block:hover, .issue-data-block.focused {
+        background-color: rgba(0,0,0,.2);
     }
 }
