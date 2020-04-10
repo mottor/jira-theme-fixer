@@ -4,13 +4,6 @@ body.page-issue-navigator {
     background: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-    body.page-issue-navigator {
-        background-color: #3c3c3d;
-        color: #eee;
-    }
-}
-
 #ghx-header {margin-bottom:0;}
 #ghx-header h1 {font-size: 14px;}
 #ghx-header h1 > * {display: inline-block; margin: 0 10px 0 0; padding: 0; font-size: 14px;}
@@ -138,3 +131,14 @@ body.page-issue-navigator {
 
 #js-work-quickfilters, #js-plan-quickfilters {background-color: rgba(255, 255, 255, 0.9); padding: 3px 10px; border-radius: 4px;}
 #js-work-quickfilters .ghx-quickfilter-trigger, #js-plan-quickfilters .ghx-quickfilter-trigger {top: 3px;}
+
+@media (prefers-color-scheme: dark) {
+    body.page-issue-navigator {
+        background-color: #3c3c3d;
+        color: #eee;
+    }
+    
+    .issue-view .issue-body-content .module>.mod-header>h4 {
+        color: #fff;
+    }
+}
