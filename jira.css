@@ -133,6 +133,19 @@ body.page-issue-navigator {
 #js-work-quickfilters .ghx-quickfilter-trigger, #js-plan-quickfilters .ghx-quickfilter-trigger {top: 3px;}
 
 @media (prefers-color-scheme: dark) {
+    body.page-issue-navigator a {
+        color: #1eb6ff;
+    }
+    
+    body.page-issue-navigator .editable-field:hover {
+        background: rgba(0,0,0,.2);
+        box-shadow: 0 0 0 1px rgba(0,0,0,.5);
+    }
+    
+    body.page-issue-navigator .editable-field .overlay-icon {
+        border-left: 1px solid rgba(0,0,0,.5);
+    }
+    
     body.page-issue-navigator {
         background-color: #3c3c3d;
         color: #eee;
@@ -140,5 +153,10 @@ body.page-issue-navigator {
     
     body.page-issue-navigator h1, body.page-issue-navigator h2, body.page-issue-navigator h3, body.page-issue-navigator h4 {
         color: #fff;
+    }
+    
+    body.page-issue-navigator .preformatted, .code {
+        background: #2b2b2b;
+        border: 1px solid rgba(0,0,0,.5);
     }
 }
