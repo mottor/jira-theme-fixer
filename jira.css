@@ -134,7 +134,7 @@ body.page-issue-navigator {
 
 #attachmentmodule .mod-content.issue-drop-zone {margin-left: 0;}
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body.page-issue-navigator {
         background-color: #3c3c3d;
         color: #eee;
@@ -193,4 +193,4 @@ body.page-issue-navigator {
     .issue-data-block:hover, .issue-data-block.focused {
         background-color: rgba(0,0,0,.2);
     }
-}
+} */
