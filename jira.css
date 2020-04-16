@@ -148,7 +148,7 @@ body.page-issue-navigator {
     .aui-tabs>.tabs-menu .menu-item a, 
     .aui-tabs>.tabs-menu .menu-item a:link, 
     .aui-tabs>.tabs-menu .menu-item a:visited {
-        color: #1eb6ff; /* цвет ссылки в тёмной теме */
+        color: #1eb6ff;
     }
     
     .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a::after {
