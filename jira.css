@@ -26,25 +26,32 @@ body.page-issue-navigator {
 #ghx-column-header-group.ghx-fixed {background: transparent; position:static!important;}
 #ghx-column-headers {padding-top: 0 !important;}
 .ghx-column-headers .ghx-column {border-bottom: 0; padding: 6px 10px 2px !important;}
-.ghx-column {
+
+.ghx-column-headers .ghx-column, .ghx-columns .ghx-column {
     background: #F4F5F7 !important; 
-    padding: 0 5px 5px !important;
-    border-radius: 4px;
+    padding: 0 8px 8px !important;
 }
+    
+.ghx-column-headers .ghx-column {border-radius: 4px 4px 0 0;}
+.ghx-columns .ghx-column {border-radius: 0 0 4px 4px;}
+
 .ghx-issue {
-    margin-top: 5px; 
+    margin-top: 8px; 
     border-radius: 2px; 
     box-shadow: 0px 1px 2px 0px rgba(9, 30, 66, 0.25); 
     border: 0;
 }
+
 .ghx-issue.ghx-issue-subtask {margin-top: 2px; margin-left: 14px;}
 .ghx-grabber {width: 3px; border-top-left-radius: 3px; border-bottom-left-radius: 3px;}
 .ghx-issue-fields .ghx-summary .ghx-inner, .ghx-band-1 .ghx-issue-fields .ghx-summary .ghx-inner {line-height: 1.3; min-height: fit-content;}
 .ghx-band-1 .ghx-issue-fields {margin-top:0 !important;}
-/*.ghx-issue.ghx-selected, .ghx-issue.ghx-selected:hover {
-    background: #ffe37a;
+
+.ghx-issue.ghx-selected, .ghx-issue.ghx-selected:hover {
+    background: #deebff;
     z-index: 1;
-}*/
+}
+
 .ghx-issue:hover {
     background: #fff;
     box-shadow: 0 0 0 3px #fbc80c;
