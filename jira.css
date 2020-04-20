@@ -25,15 +25,21 @@ body.page-issue-navigator {
 #ghx-pool {background: transparent; padding-top: 0 !important;}
 #ghx-column-header-group.ghx-fixed {background: transparent; position:static!important;}
 #ghx-column-headers {padding-top: 0 !important;}
-.ghx-column-headers .ghx-column {border-bottom: 0; padding: 6px 10px 2px !important;}
 
-.ghx-column-headers .ghx-column, .ghx-columns .ghx-column {
+.ghx-column-headers .ghx-column, 
+.ghx-columns .ghx-column {
     background: #F4F5F7 !important; 
-    padding: 0 8px 8px !important;
 }
     
-.ghx-column-headers .ghx-column {border-radius: 4px 4px 0 0;}
-.ghx-columns .ghx-column {border-radius: 0 0 4px 4px;}
+.ghx-column-headers .ghx-column {
+    border-radius: 4px 4px 0 0;
+    border-bottom: 0;
+    padding: 8px 8px 0 !important;
+}
+.ghx-columns .ghx-column {
+    border-radius: 0 0 4px 4px;
+    padding: 0 8px 8px !important;
+}
 
 .ghx-issue {
     margin-top: 8px; 
