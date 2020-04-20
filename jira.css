@@ -34,7 +34,7 @@ body.page-issue-navigator {
 .ghx-column-headers .ghx-column {
     border-radius: 4px 4px 0 0;
     border-bottom: 0;
-    padding: 8px 8px 0 !important;
+    padding: 12px 8px 4px !important;
 }
 .ghx-columns .ghx-column {
     border-radius: 0 0 4px 4px;
